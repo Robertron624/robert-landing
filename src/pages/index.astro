@@ -1,0 +1,86 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+
+			<div>
+				<img src="coding_hero.jpg" alt="home hero">
+			</div>
+			<p>
+				Bienvenido a mi pagina web personal, en esta te contaré todo sobre mi experiencia como
+				desarrollador frontend,
+				También postaré de vez en cuando sobre temas que me apasionan: la programación,
+				la informatica, la tecnología, cultura popular e idiomas.
+			</p>
+			<p>
+				En mi corto recorrido por el mundo del desarrollo web, he trabajado con algunas tecnologías,
+				entre las que se encuentran:
+			</p>
+			<div class="tech__cards">
+				<a class="tech__card" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank">
+					<img src="HTML5_logo.svg" alt="HMTL5 Logo">
+				</a>
+				<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" class="tech__card">
+					<img src="CSS3_logo.svg" alt="CSS3 Logo">
+				</a>
+				<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" class="tech__card">
+					<img src="JavaScript_logo.svg" alt="Javascript Logo">
+				</a>
+				<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" class="tech__card">
+					<img src="descarga.png" alt="React Logo">
+				</a>
+				<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" class="tech__card">
+					<img src="nodejs-seeklogo.com.svg" alt="NodeJs Logo">
+				</a>
+				<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" class="tech__card">
+					<img src="python-seeklogo.com.svg" alt="Python Logo">
+				</a>
+			</div>
+			<p>
+				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
+					>read the docs
+				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+			</p>
+			<p>
+				Looking for a blog template with a bit more personality? Check out <a
+					href="https://github.com/Charca/astro-blog-template"
+					>astro-blog-template
+				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
+
+
+<style>
+
+	.tech__cards {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 2rem;
+		margin: 3rem 0;
+	}
+
+	.tech__card{
+		display: flex;
+		justify-content: center;
+	}
+
+	.tech__card img {
+		max-width: 80px;
+		max-height: 80px;
+	}
+</style>
