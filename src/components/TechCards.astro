@@ -1,0 +1,33 @@
+---
+import cards from "../content/cards.json";
+---
+
+
+<div class="tech__cards">
+    {cards.map((card) => (
+        <a class="tech__card" href={card.href} target="_blank">
+            <img src={card.imgSrc} alt={card.altText}>
+        </a>
+    ))}
+</div>
+
+
+<style>
+
+	.tech__cards {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		row-gap: 2rem;
+		margin: 3rem 0;
+	}
+
+	.tech__card{
+		display: flex;
+		justify-content: center;
+	}
+
+	.tech__card img {
+		max-width: 80px;
+		max-height: 80px;
+	}
+</style>

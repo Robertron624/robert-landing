@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "HTML5",
+        "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+        "imgSrc": "HTML5_logo.svg",
+        "altText": "HTML5 logo"
+    },
+    {
+        "name" : "CSS3",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "imgSrc": "CSS3_logo.svg",
+        "altText": "CSS3 logo"
+    },
+    {
+        "name" : "Javascript",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "imgSrc": "JavaScript_logo.svg",
+        "altText": "JavaScript logo"
+    },
+    {
+        "name" : "ReactJs",
+        "href": "https://es.reactjs.org/",
+        "imgSrc": "descarga.png",
+        "altText": "ReactJs logo"
+    },
+    {
+        "name" : "NodeJs",
+        "href": "https://nodejs.org/en/docs/",
+        "imgSrc": "HTML5_logo.svg",
+        "altText": "NodeJs logo"
+    },
+    {
+        "name" : "Python",
+        "href": "https://docs.python.org/3/",
+        "imgSrc": "python-seeklogo.com.svg",
+        "altText": "Python logo"
+    }
+]
