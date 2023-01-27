@@ -1,0 +1,40 @@
+---
+import Header from "../components/Header.astro";
+import Footer from '../components/Footer.astro';
+import ContactGrid from '../components/ContactGrid.astro';
+import BaseHead from '../components/BaseHead.astro';
+
+import "../styles/global.css";
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <BaseHead title={"Contáctame !"} description={"Links para poder contactarme"} />
+</head>
+<body>
+    <Header/>
+    <main>
+        <h1>Contáctame !</h1>
+        <p>Siempre estoy interesado en trabajar con otros, ya sea como freelancer o como trabajador a
+            tiempo completo.
+            Puedes contáctamer por los siguientes medios.
+        </p>
+        <ContactGrid/>
+    </main>
+    <Footer/>
+</body>
+</html>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+
+    Footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+</style>

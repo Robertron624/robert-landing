@@ -7,10 +7,24 @@ const today = new Date();
 </footer>
 <style>
 	footer {
-		padding: 25px;
+		padding: 25px 0;
 		text-align: center;
 		background-color: #202020;
-		width: auto;
 		color: antiquewhite;
 	}
+	.about_footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
 </style>
+
+
+<script>
+	const currentLocation = window.location.pathname
+
+	if(currentLocation == "/blog" || currentLocation == "/contact"){
+		let footer = document.querySelector("footer")
+		footer?.classList.add("about_footer")
+	}
+</script>

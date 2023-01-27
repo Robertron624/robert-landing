@@ -26,7 +26,7 @@
     {
         "name" : "NodeJs",
         "href": "https://nodejs.org/en/docs/",
-        "imgSrc": "HTML5_logo.svg",
+        "imgSrc": "nodejs-seeklogo.com.svg",
         "altText": "NodeJs logo"
     },
     {
@@ -34,5 +34,17 @@
         "href": "https://docs.python.org/3/",
         "imgSrc": "python-seeklogo.com.svg",
         "altText": "Python logo"
+    },
+    {
+        "name" : "GraphQL",
+        "href": "https://graphql.org/learn/",
+        "imgSrc": "GraphQL_Logo.svg.png",
+        "altText": "GraphQL logo"
+    },
+    {
+        "name" : "MySQL",
+        "href": "https://dev.mysql.com/doc/",
+        "imgSrc": "mySQL.png",
+        "altText": "MySQL logo"
     }
 ]

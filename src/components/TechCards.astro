@@ -2,21 +2,27 @@
 import cards from "../content/cards.json";
 ---
 
-
-<div class="tech__cards">
-    {cards.map((card) => (
-        <a class="tech__card" href={card.href} target="_blank">
-            <img src={card.imgSrc} alt={card.altText}>
-        </a>
-    ))}
+<div>
+	<h1>Stack de tecnología</h1>
+	<div class="tech__cards">
+		{cards.map((card) => (
+			<a class="tech__card" href={card.href} target="_blank">
+				<img src={card.imgSrc} alt={card.altText}>
+			</a>
+		))}
+	</div>
 </div>
-
 
 <style>
 
+	h1{
+		text-align: center;
+		margin: 4rem 0;
+	}
+
 	.tech__cards {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		row-gap: 2rem;
 		margin: 3rem 0;
 	}
