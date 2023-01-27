@@ -1,0 +1,66 @@
+
+<h1>Mi experiencia laboral</h1>
+<div class="experience_container">
+    <div class="exp_card">
+        <img src="itglobers.jpg" alt="IT Globers logo">
+        <div>
+            <span class="exp_title">Frontend developer Junior</span>
+            <ul>
+                <li>Desarrollar y mantener tiendas online con Vtex IO</li>
+                <li>Desarrollar Pruebas de concepto para potenciales clientes con Vtex IO</li>
+            </ul>
+        </div>
+    </div>
+    <div class="exp_card">
+        <img src="blacksip.svg" alt="blacksip logo">
+        <div>
+            <span class="exp_title">Frontend developer trainee</span>
+            <ul>
+                <li>Desarrollar y mantener tiendas con el framework Vtex IO</li>
+                <li>Desarrollar modulos reutilizables para tiendas Vtex IO</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    h1 {
+        text-align: center;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .experience_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    
+    .exp_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #879085;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .exp_card li{
+        font-size: 13px;
+    }
+    
+    .exp_card img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
+    }
+
+    .exp_title {
+        font-weight: bold;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+</style>
