@@ -70,3 +70,9 @@ main{
 	margin: 0 auto;
 	padding: 20px;
 }
+
+.about-image{
+	display: flex;
+	border-radius: 20rem;
+	margin: 0 auto;
+}

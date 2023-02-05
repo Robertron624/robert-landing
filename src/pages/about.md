@@ -8,6 +8,10 @@ heroImage: "/placeholder-about.jpg"
 
 ## ¿ Quien Soy ?
 
+<!-- ![foto de robert](./../../public/robert.jpg) -->
+
+<img class="about-image" src="/robert.jpg"/>
+
 Soy Robert un desarrollador web que tiene a la Administración de Comercio internacional, comencé a incursionarme al mundo
 de la programación en el año 2020, justo cuando comenzaban las restricciones para tratar de contener a la COVID 19 en mi
 país, justo después de graduarme.
