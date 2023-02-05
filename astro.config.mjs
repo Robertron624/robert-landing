@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://Robetron624.github.com',
+	base: "/robert-landing",
 	integrations: [mdx(), sitemap()],
 });
